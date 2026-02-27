@@ -1,0 +1,6 @@
+# Placeholder for dataset directory
+# Structure:
+#   raw/         - Original underwater images
+#   processed/   - Preprocessed images (after enhancement)
+#   annotations/ - YOLO format labels (.txt files)
+#   splits/      - train.txt, val.txt, test.txt with image paths
