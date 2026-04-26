@@ -1,0 +1,9 @@
+path: C:\Users\imarn\Desktop\minor project
+train: C:\Users\imarn\Desktop\minor project\dataset\subset\train_subset_balanced.txt
+val: C:\Users\imarn\Desktop\minor project\dataset\subset\val_subset.txt
+test: dataset/images/test
+nc: 3
+names:
+- plastic_waste
+- metal_waste
+- other_waste

@@ -1,0 +1,76 @@
+{
+  "completed": [
+    "exp_a_yolov8s"
+  ],
+  "results": [
+    {
+      "run_name": "exp_a_yolov8s",
+      "model": "yolov8s.pt",
+      "run_dir": "C:\\Users\\imarn\\Desktop\\minor project\\runs\\optimized_balanced111\\exp_a_yolov8s",
+      "best_weights": "C:\\Users\\imarn\\Desktop\\minor project\\runs\\optimized_balanced111\\exp_a_yolov8s\\weights\\best.pt",
+      "overall": {
+        "epoch": 60,
+        "precision": 0.97309,
+        "recall": 0.88552,
+        "mAP50": 0.93697,
+        "mAP50_95": 0.68812
+      },
+      "macro_avg": {
+        "precision": 0.9963735068286105,
+        "recall": 0.8945341294905651,
+        "f1": 0.9355338560182199,
+        "mAP50": 0.9476339285714287
+      },
+      "class_rows": [
+        {
+          "class": "plastic_debris",
+          "precision": 1.0,
+          "recall": 0.6836023884716954,
+          "f1": 0.8120710604268523,
+          "mAP50": 0.8529017857142858
+        },
+        {
+          "class": "bio_debris",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mAP50": 0.995
+        },
+        {
+          "class": "rov_vehicle",
+          "precision": 0.9891205204858314,
+          "recall": 1.0,
+          "f1": 0.9945305076278076,
+          "mAP50": 0.995
+        }
+      ],
+      "failure_cases": [
+        "plastic_debris"
+      ],
+      "threshold_tuning": {
+        "score": 0.9411764705882353,
+        "conf": 0.5,
+        "iou": 0.5,
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "mAP50": 0.9411
+      },
+      "threshold_compare": {
+        "before": {
+          "precision": 0.97309,
+          "recall": 0.88552,
+          "mAP50": 0.93697,
+          "f1": 0.9272420322714287
+        },
+        "after": {
+          "precision": 1.0,
+          "recall": 0.8888888888888888,
+          "mAP50": 0.9411,
+          "f1": 0.9411764705882353,
+          "conf": 0.5,
+          "iou": 0.5
+        }
+      }
+    }
+  ]
+}

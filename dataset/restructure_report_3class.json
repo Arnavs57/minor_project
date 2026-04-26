@@ -1,0 +1,32 @@
+{
+  "train": {
+    "files": 4576,
+    "rows_in": 3721,
+    "rows_out": 3721,
+    "dropped_unknown": 0,
+    "duplicate_removed": 0
+  },
+  "val": {
+    "files": 1144,
+    "rows_in": 939,
+    "rows_out": 939,
+    "dropped_unknown": 0,
+    "duplicate_removed": 0
+  },
+  "background_labels_added": {
+    "train": 0,
+    "val": 0
+  },
+  "class_counts": {
+    "train": {
+      "plastic_waste": 3697,
+      "metal_waste": 3,
+      "other_waste": 21
+    },
+    "val": {
+      "plastic_waste": 931,
+      "metal_waste": 2,
+      "other_waste": 6
+    }
+  }
+}
