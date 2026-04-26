@@ -1,0 +1,34 @@
+{
+  "source_data_yaml": "C:\\Users\\imarn\\Desktop\\minor project\\dataset\\data.yaml",
+  "subset_ratio": 0.25,
+  "oversample": true,
+  "max_repeat": 8,
+  "train_summary": {
+    "images": 837,
+    "class_image_presence": {
+      "plastic_waste": 837,
+      "metal_waste": 2,
+      "other_waste": 5
+    },
+    "class_box_counts": {
+      "plastic_waste": 916,
+      "metal_waste": 2,
+      "other_waste": 5
+    }
+  },
+  "val_summary": {
+    "images": 210,
+    "class_image_presence": {
+      "plastic_waste": 210,
+      "metal_waste": 1,
+      "other_waste": 1
+    },
+    "class_box_counts": {
+      "plastic_waste": 231,
+      "metal_waste": 1,
+      "other_waste": 1
+    }
+  },
+  "balanced_train_list_size": 886,
+  "output_yaml": "C:\\Users\\imarn\\Desktop\\minor project\\dataset\\subset\\data_subset.yaml"
+}

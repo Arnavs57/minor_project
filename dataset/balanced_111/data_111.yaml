@@ -1,0 +1,9 @@
+path: C:\Users\imarn\Desktop\minor project
+train: C:\Users\imarn\Desktop\minor project\dataset\balanced_111\train_111.txt
+val: C:\Users\imarn\Desktop\minor project\dataset\balanced_111\val_111.txt
+test: ''
+nc: 3
+names:
+- plastic_debris
+- bio_debris
+- rov_vehicle

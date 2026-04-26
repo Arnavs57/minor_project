@@ -1,0 +1,76 @@
+{
+  "completed": [
+    "exp_a_yolov8s"
+  ],
+  "results": [
+    {
+      "run_name": "exp_a_yolov8s",
+      "model": "yolov8s.pt",
+      "run_dir": "C:\\Users\\imarn\\Desktop\\minor project\\runs\\optimized_balanced500\\exp_a_yolov8s",
+      "best_weights": "C:\\Users\\imarn\\Desktop\\minor project\\runs\\optimized_balanced500\\exp_a_yolov8s\\weights\\best.pt",
+      "overall": {
+        "epoch": 10,
+        "precision": 0.98991,
+        "recall": 0.91678,
+        "mAP50": 0.97115,
+        "mAP50_95": 0.73709
+      },
+      "macro_avg": {
+        "precision": 0.992210219356901,
+        "recall": 0.92524682651622,
+        "f1": 0.9546398217888297,
+        "mAP50": 0.9583701048530632
+      },
+      "class_rows": [
+        {
+          "class": "plastic_debris",
+          "precision": 0.9834324399314813,
+          "recall": 0.7757404795486601,
+          "f1": 0.8673261668689166,
+          "mAP50": 0.8851103145591895
+        },
+        {
+          "class": "bio_debris",
+          "precision": 0.9964114823018764,
+          "recall": 1.0,
+          "f1": 0.998202515999364,
+          "mAP50": 0.995
+        },
+        {
+          "class": "rov_vehicle",
+          "precision": 0.9967867358373452,
+          "recall": 1.0,
+          "f1": 0.9983907824982085,
+          "mAP50": 0.995
+        }
+      ],
+      "failure_cases": [
+        "plastic_debris"
+      ],
+      "threshold_tuning": {
+        "score": 0.9600590344929857,
+        "conf": 0.6,
+        "iou": 0.5,
+        "precision": 0.9975932611311672,
+        "recall": 0.92524682651622,
+        "mAP50": 0.9589641578865451
+      },
+      "threshold_compare": {
+        "before": {
+          "precision": 0.98991,
+          "recall": 0.91678,
+          "mAP50": 0.97115,
+          "f1": 0.9519425704230893
+        },
+        "after": {
+          "precision": 0.9975932611311672,
+          "recall": 0.92524682651622,
+          "mAP50": 0.9589641578865451,
+          "f1": 0.9600590344929857,
+          "conf": 0.6,
+          "iou": 0.5
+        }
+      }
+    }
+  ]
+}
